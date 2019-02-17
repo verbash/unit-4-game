@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Crystal Game</title>
+  <meta name="description" content="The Crystal Game">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<!-- head title -->
+<div id="title" class="clear">
+        <h1>The Crystal Game</h1>
+</div>
+
+<!-- game description -->
+<div id="instructions" class="clear">
+    <p>You will be given a random number at the start of the game.
+    <br>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+    <br>You win the game by matching your total score to the random number.  You lose the game if your total score goies above the random number.
+    <br>The value of each crystal is hidden from you until you click on it.
+    <br>Each time when the game starts, the game will change the values of each crystal.
+    <br></p>
+</div>
+
+    <!-- target score cpu random -->
+<div id="score_row" class="clear">
+    <div id="cpu_score">
+    </div>
+
+    <!-- games scoreboard -->
+    <div id="scoreboard">
+        <div id="wins">Wins:</div>
+        <div id="losses">Losses:</div>
+    </div>
+</div>
+
+<div id="crystal_row">
+    <!-- crystal 1 -->
+    <button class="crystal" id="crystal1_div"><img src="assets/images/crystalball.jpg" alt="crystal ball" height="120px"/></button>
+    <!-- crystal 2 -->
+    <button class="crystal" id="crystal2_div"><img src="assets/images/crystalgayle.jpg" alt="Crystal Gayle" height="120px"/></button>
+    <!-- crystal 3 -->
+    <button class="crystal" id="crystal3_div"><img src="assets/images/crystalskull.jpg" alt="crystal skull" height="120px"/></button>
+    <!-- crystal 4 -->
+    <button class="crystal" id="crystal4_div"><img src="assets/images/crystalpepsi.jpg" alt="Crystal Pepsi" height="120px"/></button>
+</div>
+
+<!-- "total score is" -->
+<div id="score_text" class="clear">
+    <h3>Total Score is..</h3>
+    <!-- calculated total score -->
+   <h2><div id="total_score"></h2></div></h2>
+
+</div>
+
+  <script src="assets/javascript/game.js">
+  
+  
+  </script>
+</body>
+</html>

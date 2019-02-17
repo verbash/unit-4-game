@@ -1,0 +1,123 @@
+h1  {
+    color: red;
+    font-family: courier;
+    font-size: 160%;
+}
+
+h2 {
+    font-family: courier;
+    font-size: 200%;
+}
+h3 {
+    font-family: courier;
+    font-size: 150%;
+}
+body {
+    background-image: url("../images/jade.jpg") ;
+}
+
+button {
+    height: 140px;
+    width: 100px;
+    margin: 20px;
+}
+
+.clear {
+    clear: both;
+
+}
+#title {
+    height: 50px;
+    width: 50%;
+    border: black solid 1px;
+    background-color: coral;
+    margin: 20px;
+    text-align: center;
+    /* vertical-align: baseline; */
+    padding-top: 10px;
+
+}
+
+#instructions {
+    height: 100%;
+    width: 75%;
+    border: black solid 1px;
+    background-color: teal;
+    margin: 20px;
+    vertical-align: baseline;
+    padding: 10px;
+
+
+}
+#score_row {
+    height: 100px;
+    width: 50%;
+    border: black solid 1px;
+    background-color: coral;
+    margin: 20px;
+    text-align: center;
+    vertical-align: baseline;
+    }
+    #cpu_score {
+        position: relative;
+        height: 90px;
+        width:25%;
+        float: left;
+        padding:5px;
+        background-color: gold;
+
+    }
+    #scoreboard {
+        height: 100px;
+        width: 25%;
+        float: left;
+    }
+        #wins {
+            height: 20px;
+            padding: 5px;
+        }
+        #losses {
+            height: 20px;
+            padding: 5px;
+        }
+#crystal_row {
+    height: 100px;
+}
+.crystal {
+    width: 20%;
+    height:150px;
+    float:left;
+    position: relative;
+    
+    
+}
+    #crystal1_div {
+        
+        float: left;
+    }
+    #crystal2_div {
+        
+        float: left;
+    }
+    #crystal3_div {
+       
+        float: left;
+    }
+    #crystal4_div {
+       
+        float: left;
+    }
+#score_text {
+    height: 100px;
+    width: 50%;
+    border: black solid 1px;
+    background-color: coral;
+    margin: 20px;
+    margin-top: 70px;
+    vertical-align: baseline;
+    padding:5px;
+}
+#total_score {
+    
+    /* height: 100px; */
+}
